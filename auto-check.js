@@ -1,0 +1,141 @@
+/* Завдання 1 автоперевірка
+ */
+// Запиши умову в інструкції if таким чином, щоб функція працювала правильно.
+// function checkAge(age) {
+//     if (age >= 18) { // Change this line
+//       return "You are an adult";
+//     }
+//     return "You are a minor";
+//   }
+
+
+
+
+/* Завдання 2 автоперевірка
+ */
+// Функція checkPassword отримує пароль користувача у параметр password, 
+// перевіряє його на збіг з паролем адміністратора у змінній ADMIN_PASSWORD і повертає повідомлення про результат порівняння.
+// Виконай рефакторинг коду функції checkPassword, використовуючи патерн «раннє повернення»:
+// видали змінну message
+// видали else
+// код повинен працювати так само, як і до оптимізації
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     if (password === ADMIN_PASSWORD) {
+//     return  "Welcome!";
+//     }
+//     return "Access denied, wrong password!";
+//   }
+
+
+
+
+/* Завдання 3 автоперевірка
+ */
+// Функція checkStorage перевіряє можливість оформлення замовлення і повертає повідомлення про результат. 
+// Вона приймає два параметри, значення яких будуть задаватися під час її виклику.
+// available - доступна кількість товарів на складі
+// ordered - кількість одиниць товару в замовленні
+// Виконай рефакторинг коду функції checkStorage, використовуючи патерн «раннє повернення».
+// function checkStorage(available, ordered) {
+//     if (ordered === 0) {
+//       return "Your order is empty!";
+//     } 
+//     if (ordered > available) {
+//       return "Your order is too large, not enough goods in stock!";
+//     }
+//       return"The order is accepted, our manager will contact you";
+//   }
+
+
+
+
+/* Завдання 4 автоперевірка
+ */
+// Оголоси змінну fruits і присвой їй масив фруктів - рядків "apple", "plum", "pear" і "orange".
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+
+
+
+/* Завдання 5 автоперевірка
+ */
+// Оголоси три змінні і присвой кожній з них значення, використовуючи нотацію квадратних дужок.
+// Ім'я змінної	Значення змінної
+// firstElement	перший елемент масиву
+// secondElement	другий елемент масиву
+// lastElement	    останній елемент масиву
+// const fruits = ["apple", "plum", "pear", "orange"];
+// const firstElement = "apple";
+// const secondElement = "plum";
+// const therdElement = "pear";
+// const lastElement = "orange";
+// fruits[firstElement];
+// fruits[secondElement];
+// fruits[therdElement];
+// fruits[lastElement];
+
+
+
+
+/* Завдання 6 автоперевірка
+ */
+// Виконай перевизначення значення елементів з індексами 1 і 3. 
+// Заміни "plum" на "peach", а "orange" на "banana".
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = "peach";
+// fruits[3] = "banana";
+// console.log(fruits); 
+
+
+
+
+/* Завдання 7 автоперевірка
+ */
+// Оголоси змінну fruitsArrayLength і присвой їй довжину масиву fruits, 
+// використовуючи властивість length.
+
+
+
+/* Завдання 8 автоперевірка
+ */
+
+
+
+/* Завдання 9 автоперевірка
+ */
+
+
+
+/* Завдання 10 автоперевірка
+ */
+
+
+
+/* Завдання 11 автоперевірка
+ */
+
+
+
+/* Завдання 12 автоперевірка
+ */
+
+
+
+/* Завдання 13 автоперевірка
+ */
+
+
+
+/* Завдання 14 автоперевірка
+ */
+
+
+
+/* Завдання 15 автоперевірка
+ */
+
+
+
+/* Завдання 16 автоперевірка
+ */
