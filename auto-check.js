@@ -160,6 +160,13 @@
 // Ця функція приймає рядок, що складається зі слів, 
 // розділених лише пробілами (параметр message) та ціну гравірування одного слова (параметр pricePerWord).
 // Напиши тіло функції, щоб вона повертала загальну вартість гравірування усіх слів в рядку.
+// function calculateEngravingPrice(message, pricePerWord) {
+// let word = message.split(" ");
+// const wordLength = word.length;
+//    const total = wordLength * pricePerWord;
+//     console.log(total);
+//     return total;
+// }
 
 
 
@@ -167,23 +174,147 @@
 
 /* Завдання 12 автоперевірка
  */
+// МЕТОД МАСИВУ JOIN()
+// Доповни код функції makeStringFromArray(array, delimeter) таким чином, 
+// щоб вона повертала у змінній string результат з'єднання елементів масиву array з роздільником delimeter - рядок.
+// function makeStringFromArray(array, delimeter) {
+//     let string;
+//     string = array.join(delimeter);
+//     return string;
+// }
 
 
 
 /* Завдання 13 автоперевірка
  */
+// ЗАДАЧА: ГЕНЕРАТОР SLUG
+// Термін slug - це людино-зрозумілий унікальний ідентифікатор, 
+// який використовується у веб-розробці для створення читабельних URL-адрес.
+// Наприклад, замість того, щоб користувач побачив в адресному рядку mysite.com/posts/1q8fh74tx, 
+// можна зробити slug з назви статті. 
+// В результаті адреса буде приємнішою для сприйняття: mysite.com/posts/arrays-for-begginers.
+// Увага
+// Slug - це завжди рядок у нижньому регістрі, слова якого розділені тире.
+// Напиши функцію slugify(title), яка приймає заголовок статті, параметр title, і повертає slug, створений з цього рядка.
+// Значенням параметра title будуть рядки, слова яких розділені лише пробілами
+// Усі символи slug повинні бути у нижньому регістрі
+// Всі слова slug повинні бути розділені тире
+// function slugify(title) {
+//    let slug;
+//     slug = title.toLowerCase().split(' ').join('-');
+//   return slug;
+//   }
+
 
 
 
 /* Завдання 14 автоперевірка
  */
+// МЕТОД SLICE()
+// Доповни код таким чином, щоб змінні містили часткові копії вихідного масиву fruits.
+// firstTwoEls - масив із перших двох елементів
+// nonExtremeEls - масив з усіх елементів, крім першого та останнього
+// lastThreeEls - масив із трьох останніх елементів
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+// const firstTwoEls = fruits.slice(0,2);
+// const nonExtremeEls = fruits.slice(1,4);
+// const lastThreeEls = fruits.slice(-3);
+ 
 
 
 
 /* Завдання 15 автоперевірка
  */
+// МЕТОД CONCAT()
+// Доповни код таким чином, щоб у змінній allClients утворився 
+// масив усіх елементів масивів oldClients і newClients.
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+// const allClients = oldClients.concat(newClients); 
+
 
 
 
 /* Завдання 16 автоперевірка
+ */
+// ЗАДАЧА: КОМПОЗИЦІЯ МАСИВІВ
+// Напиши функцію makeArray(firstArray, secondArray, maxLength) для створення нового масиву з 
+// усіма елементами двох вихідних firstArray і secondArray. 
+// Параметр maxLength містить максимально допустиму довжину нового масиву.
+// Якщо кількість елементів нового масиву більша за maxLength, 
+// функція повинна повернути копію масиву довжиною maxLength елементів. 
+// В іншому випадку функція повинна повернути новий масив повністю.
+// function makeArray(firstArray, secondArray, maxLength) {
+//     const newArray = firstArray.concat(secondArray);
+//     if (newArray.length > maxLength) {
+//       return newArray.slice(0, maxLength);
+//     }
+//     return newArray;
+//       }
+
+
+
+
+
+/* Завдання 17 автоперевірка
+ */
+// ЦИКЛ FOR
+// Доповни цикл for таким чином, щоб він логував всі цілі числа в діапазоні від start до end включно.
+// const start = 3;
+// const end = 7;
+// for (let i = start; i <= end; i += 1) { 
+//   console.log(i);
+// }
+
+
+
+
+/* Завдання 18 автоперевірка
+ */
+// ЗАДАЧА: СУМА ЧИСЕЛ (ЦИКЛ FOR)
+// Напиши функцію calculateTotal(number), яка приймає ціле число (параметр number) і 
+// повертає суму всіх цілих чисел від одиниці і до цього числа. 
+// Наприклад, якщо number дорівнює 3, то сума - це 1 + 2 + 3, тобто 6.
+
+
+
+
+/* Завдання 19 автоперевірка
+ */
+
+
+
+
+/* Завдання 20 автоперевірка
+ */
+
+
+
+
+/* Завдання 21 автоперевірка
+ */
+
+
+
+
+/* Завдання 22 автоперевірка
+ */
+
+
+
+
+/* Завдання 23 автоперевірка
+ */
+
+
+
+
+
+/* Завдання 24 автоперевірка
+ */
+
+
+
+
+/* Завдання 25 автоперевірка
  */
