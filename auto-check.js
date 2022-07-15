@@ -320,7 +320,18 @@
 // ЗАДАЧА: ПОШУК НАЙДОВШОГО СЛОВА
 // Напиши функцію findLongestWordstring), яка приймає довільний рядок, 
 // що складається тільки зі слів, розділених пробілом (параметр string), і повертає найдовше слово в цьому рядку.
-
+// function findLongestWord(string) {
+//   const splitString = string.split(" ");
+//   let maxWord = splitString[0];
+  
+//    for (let i = 0; i < splitString.length; i += 1) {
+  
+//   if(splitString[i].length > maxWord.length) {
+//     maxWord = splitString[i];
+//   }
+//   }
+//   return maxWord;
+//   }
 
 
 
@@ -328,6 +339,19 @@
 
 /* Завдання 22 автоперевірка
  */
+// МЕТОД PUSH()
+// Доповни код функції createArrayOfNumbers(min, max) таким чином, 
+// щоб вона повертала масив усіх цілих чисел від значення min до max.
+// function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+    
+//    for (let i = min; i <= max; i += 1){
+//      numbers.push(i);
+//    }
+   
+//     return numbers;
+//   }
+  
 
 
 
