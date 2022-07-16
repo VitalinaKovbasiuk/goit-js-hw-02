@@ -484,6 +484,16 @@
 // ОПЕРАТОР BREAK
 // Доповни код таким чином, щоб у змінну number записувалося перше число від start до end, 
 // яке ділиться на 5 без остачі.
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//       break;
+//   }
+// }
 
 
 
@@ -491,6 +501,22 @@
 
 /* Завдання 31 автоперевірка
  */
+// ОПЕРАТОР BREAK VS RETURN У ФУНКЦІЇ
+// Виконай рефакторинг функції findNumber(start, end, divisor) таким чином, щоб вона:
+// повертала перше число від start до end, яке ділиться на divisor без остачі
+// не використала оператор break
+// не використала змінну number
+// function findNumber(start, end, divisor) {
+//     let number;
+  
+//     for (let i = start; i < end; i += 1) {
+//       if (i % divisor === 0) {
+//         number = i;
+//         return i;
+//       }
+//     }
+//     return ;
+//   }
 
 
 
@@ -498,3 +524,18 @@
 
 /* Завдання 32 автоперевірка
  */
+// ЗАДАЧА: ФУНКЦІЯ INCLUDES()
+// Напиши функцію includes(array, value), яка робить те саме, що і метод масиву масив.includes(значення) - перевіряє, 
+// чи присутнє в масиві array значення value, 
+// повертаючи true, якщо присутнє, і false в іншому випадку.
+// При виконанні цього завдання в тілі функції includes() не можна використовувати метод масив.includes(значення).
+// function includes(array, value) {
+    
+//   const newArray = [];
+//     for (let i = 0; i < array.length; i += 1) {
+//       if(array[i] === value) {
+//     return true
+//       }
+//     }
+//     return false;
+//     }
