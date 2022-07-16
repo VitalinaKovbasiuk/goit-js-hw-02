@@ -33,7 +33,7 @@
 // }
 // console.log(message);
 
-// !або це можна запісаті ось так:
+// !або це можна записати ось так:
 // const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'ajxth3m4n'];
 // const loginToFind = 'poly1scute';
 // let message = `Пользователь ${loginToFind}  не найден.`;
