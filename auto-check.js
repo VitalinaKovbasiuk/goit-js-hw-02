@@ -416,25 +416,64 @@
 
 /* Завдання 26 автоперевірка
  */
-
+// ЦИКЛ FOR...OF
+// Виконай рефакторинг коду функції calculateTotalPrice(order), замінивши цикл for на for...of.
+// function calculateTotalPrice(order) {
+//     let total = 0;
+//   for (const item of order) {
+//       total += item;
+//   }
+//     return total;
+//   }
+  
 
 
 
 /* Завдання 27 автоперевірка
  */
-
+// ЗАЧАДА: ФІЛЬТРАЦІЯ МАСИВУ ЧИСЕЛ 2.0
+// Виконай рефакторинг функції filterArray(numbers, value), замінивши цикл for на for...of.
+// function filterArray(numbers, value) {
+//     const filteredNumbers = [];
+//   for (const number of numbers) {
+//       if (number > value) {
+//         filteredNumbers.push(number);
+//       }
+//     }
+//     return filteredNumbers;
+//   }
 
 
 
 
 /* Завдання 28 автоперевірка
  */
+// ОПЕРАТОР %
+// Доповни вираз остачі від ділення таким чином, щоб код проходив тести.
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
 
 
 
 
 /* Завдання 29 автоперевірка
  */
+// ЗАДАЧА: ПАРНІ ЧИСЛА
+// Напиши функцію getEvenNumbers(start, end), яка повертає масив усіх парних чисел від start до end. 
+// Парним вважається число, яке ділиться на 2 без остачі (10 % 2 === 0).
+// function getEvenNumbers(start, end) {
+//  let evenNumbers = [];
+//  for (let i = start; i <= end; i += 1) {
+//      if(i % 2 === 0){
+//    evenNumbers.push(i);
+//      }
+//  }
+//  return evenNumbers;
+//    }
 
 
 
@@ -442,6 +481,9 @@
 
 /* Завдання 30 автоперевірка
  */
+// ОПЕРАТОР BREAK
+// Доповни код таким чином, щоб у змінну number записувалося перше число від start до end, 
+// яке ділиться на 5 без остачі.
 
 
 
